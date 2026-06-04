@@ -1,0 +1,610 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>【事前学習】特別起業家講義 - Sansan 寺田親弘 氏</title>
+  <!-- Tailwind CSS -->
+  <script src="https://cdn.tailwindcss.com"></script>
+  <!-- Lucide Icons -->
+  <script src="https://unpkg.com/lucide@latest"></script>
+  <!-- Custom Google Font (Noto Sans JP) -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght=300;400;500;700;900&display=swap" rel="stylesheet">
+  <style>
+    body {
+      font-family: 'Noto Sans JP', sans-serif;
+    }
+    .notion-shadow {
+      box-shadow: 0 1px 3px rgba(0, 0, 0, 0.05), 0 4px 12px rgba(0, 0, 0, 0.03);
+    }
+  </style>
+</head>
+<body class="bg-[#FBFBFA] text-[#37352F] antialiased selection:bg-amber-100">
+
+  <!-- ヘッダーカバー画像風グラデーション -->
+  <div class="w-full h-48 md:h-64 bg-gradient-to-r from-slate-900 via-indigo-950 to-slate-900 relative flex items-end overflow-hidden">
+    <!-- 装飾的な光の輪 -->
+    <div class="absolute -top-10 -left-10 w-40 h-40 md:w-72 md:h-72 bg-blue-500 rounded-full blur-3xl opacity-20"></div>
+    <div class="absolute -bottom-10 -right-10 w-40 h-40 md:w-72 md:h-72 bg-indigo-500 rounded-full blur-3xl opacity-20"></div>
+    
+    <!-- カバー上のバッジ情報 -->
+    <div class="max-w-4xl w-full mx-auto px-6 pb-6 z-10">
+      <span class="inline-flex items-center gap-1.5 px-3 py-1 rounded-full text-xs font-semibold bg-indigo-500/20 text-indigo-300 border border-indigo-500/30 backdrop-blur-md">
+        <span class="w-2 h-2 rounded-full bg-indigo-400 animate-pulse"></span>
+        起業家講義：事前インプット資料
+      </span>
+    </div>
+  </div>
+
+  <!-- メインコンテンツ -->
+  <main class="max-w-3xl mx-auto px-4 sm:px-6 pb-24 -mt-10 relative z-20">
+    
+    <!-- メインカード -->
+    <div class="bg-white rounded-2xl p-6 sm:p-10 border border-neutral-200/80 notion-shadow">
+      
+      <!-- アイコン（Notion風） -->
+      <div class="text-5xl sm:text-6xl -mt-16 sm:-mt-20 mb-6 inline-block bg-white p-3 rounded-2xl border border-neutral-100 shadow-sm">
+        🚀
+      </div>
+
+      <!-- タイトル -->
+      <h1 class="text-2xl sm:text-4xl font-extrabold tracking-tight text-[#1A1A17] mb-4 leading-tight">
+        起業家研究：Sansan株式会社 創業社長 寺田 親弘 氏
+      </h1>
+
+      <p class="text-sm text-neutral-500 mb-6 flex items-center gap-2">
+        <i data-lucide="calendar" class="w-4 h-4"></i> 2026年特別講義シリーズ 
+        <span class="text-neutral-300">|</span> 
+        <i data-lucide="clock" class="w-4 h-4"></i> 所要時間: 約15分
+      </p>
+
+      <!-- コールアウト：案内 -->
+      <div class="bg-indigo-50 border-l-4 border-indigo-500 p-4 rounded-r-lg mb-8 text-indigo-900 text-sm leading-relaxed">
+        <div class="flex gap-2">
+          <i data-lucide="info" class="w-5 h-5 shrink-0 text-indigo-500"></i>
+          <div>
+            <strong class="font-bold block mb-1">学生の皆さんへ</strong>
+            次回の「起業家講義」には、当法人の理事長であり、Sansan株式会社の創業者である<strong>寺田親弘さん</strong>が登壇されます。講義を100%吸収し、熱い議論を交わすために、事前にこの記事を読み込んで「自分ならどうするか？」という視点を持って当日挑みましょう！
+          </div>
+        </div>
+      </div>
+
+      <!-- クイックメニュー（目次） -->
+      <div class="bg-neutral-50 rounded-xl p-4 mb-10 border border-neutral-200/50">
+        <p class="text-xs font-bold text-neutral-400 uppercase tracking-wider mb-2">もくじ</p>
+        <nav class="grid grid-cols-1 sm:grid-cols-2 gap-2 text-sm">
+          <a href="#profile" class="flex items-center gap-2 text-[#37352F] hover:text-indigo-600 transition-colors py-1">
+            <span class="text-xs bg-neutral-200 px-1.5 py-0.5 rounded text-neutral-600">1</span>
+            講師プロフィール
+          </a>
+          <a href="#about-sansan" class="flex items-center gap-2 text-[#37352F] hover:text-indigo-600 transition-colors py-1">
+            <span class="text-xs bg-neutral-200 px-1.5 py-0.5 rounded text-neutral-600">2</span>
+            Sansan株式会社とは？
+          </a>
+          <a href="#mindset" class="flex items-center gap-2 text-[#37352F] hover:text-indigo-600 transition-colors py-1">
+            <span class="text-xs bg-neutral-200 px-1.5 py-0.5 rounded text-neutral-600">3</span>
+            寺田氏の「起業家精神」
+          </a>
+          <a href="#homework" class="flex items-center gap-2 text-[#37352F] hover:text-indigo-600 transition-colors py-1">
+            <span class="text-xs bg-neutral-200 px-1.5 py-0.5 rounded text-neutral-600">4</span>
+            【要提出】事前ワーク
+          </a>
+        </nav>
+      </div>
+
+      <!-- 1. 講師プロフィール -->
+      <section id="profile" class="mb-12 scroll-mt-6">
+        <h2 class="text-xl sm:text-2xl font-bold border-b-2 border-neutral-100 pb-2 mb-6 flex items-center gap-2 text-[#1a1a17]">
+          <span class="text-indigo-600">1.</span> 講師プロフィール
+        </h2>
+        
+        <div class="grid grid-cols-1 md:grid-cols-12 gap-6 items-center">
+          <div class="md:col-span-4 flex justify-center">
+            <!-- 講師写真用SVGプレースホルダー（高品質グラフィック風） -->
+            <div class="w-40 h-40 sm:w-48 sm:h-48 rounded-2xl bg-gradient-to-tr from-slate-200 to-indigo-100 border border-neutral-300 shadow-sm flex flex-col items-center justify-center text-center p-4 relative group overflow-hidden">
+              <div class="absolute inset-0 bg-indigo-900/5 opacity-0 group-hover:opacity-100 transition-opacity"></div>
+              <i data-lucide="user" class="w-16 h-16 text-indigo-400 mb-2"></i>
+              <span class="text-xs font-bold text-indigo-800 tracking-wider">寺田 親弘 氏</span>
+              <span class="text-[10px] text-neutral-500 mt-1">Sansan / 神山まるごと高専</span>
+            </div>
+          </div>
+          
+          <div class="md:col-span-8">
+            <h3 class="text-2xl font-black text-neutral-800 mb-1">寺田 親弘 <span class="text-sm font-normal text-neutral-500">（てらだ ちかひろ）</span></h3>
+            <p class="text-sm font-semibold text-indigo-600 mb-4">Sansan株式会社 代表取締役社長 / 神山まるごと高専 理事長</p>
+            
+            <ul class="space-y-2.5 text-sm text-neutral-600">
+              <li class="flex gap-2">
+                <span class="text-indigo-500 font-bold shrink-0">・</span>
+                <span>慶應義塾大学環境情報学部（SFC）卒業後、三井物産株式会社に入社。</span>
+              </li>
+              <li class="flex gap-2">
+                <span class="text-indigo-500 font-bold shrink-0">・</span>
+                <span>シリコンバレーでの駐在などを経て、2007年にSansan株式会社を設立。</span>
+              </li>
+              <li class="flex gap-2">
+                <span class="text-indigo-500 font-bold shrink-0">・</span>
+                <span>2023年、徳島県神山町に「神山まるごと高専」を設立し、理事長に就任。</span>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </section>
+
+      <!-- 2. Sansan株式会社とは？ -->
+      <section id="about-sansan" class="mb-12 scroll-mt-6">
+        <h2 class="text-xl sm:text-2xl font-bold border-b-2 border-neutral-100 pb-2 mb-6 flex items-center gap-2 text-[#1a1a17]">
+          <span class="text-indigo-600">2.</span> Sansan株式会社ってどんな会社？
+        </h2>
+        
+        <div class="bg-neutral-50 border border-neutral-200/60 p-5 rounded-xl mb-6">
+          <p class="text-sm text-neutral-500 uppercase font-bold tracking-widest mb-1">Mission</p>
+          <p class="text-lg font-bold text-neutral-800 italic">「出会いからイノベーションを生み出す」</p>
+          <p class="text-sm text-neutral-600 mt-2 leading-relaxed">
+            ビジネスにおける「名刺管理」というニッチな領域のデジタル化からスタートし、今や働き方そのものを変革するDXサービスを展開する東証プライム上場企業です。
+          </p>
+        </div>
+
+        <h3 class="text-base font-bold text-neutral-700 mb-3">📂 主な展開サービス</h3>
+        
+        <!-- サービス紹介カード -->
+        <div class="grid grid-cols-1 md:grid-cols-3 gap-4">
+          <!-- Sansan -->
+          <div class="bg-white border border-neutral-200 rounded-xl p-4 hover:border-indigo-500 hover:shadow-md transition duration-300">
+            <div class="flex items-center justify-between mb-2">
+              <span class="text-xs font-bold text-indigo-600 bg-indigo-50 px-2.5 py-1 rounded">法人向け</span>
+              <i data-lucide="building" class="w-4 h-4 text-neutral-400"></i>
+            </div>
+            <h4 class="text-base font-bold text-neutral-800 mb-1">Sansan</h4>
+            <p class="text-xs text-neutral-500 leading-relaxed">
+              企業の営業DXサービス。名刺や企業情報を一元管理し、組織内の人脈を可視化。営業効率を最大化します。
+            </p>
+          </div>
+
+          <!-- Eight -->
+          <div class="bg-white border border-neutral-200 rounded-xl p-4 hover:border-indigo-500 hover:shadow-md transition duration-300">
+            <div class="flex items-center justify-between mb-2">
+              <span class="text-xs font-bold text-green-600 bg-green-50 px-2.5 py-1 rounded">個人向け</span>
+              <i data-lucide="users" class="w-4 h-4 text-neutral-400"></i>
+            </div>
+            <h4 class="text-base font-bold text-neutral-800 mb-1">Eight</h4>
+            <p class="text-xs text-neutral-500 leading-relaxed">
+              名刺をスマートフォンのカメラで撮るだけで、手軽に登録・整理・アップデートできる名刺管理アプリ。
+            </p>
+          </div>
+
+          <!-- Bill One -->
+          <div class="bg-white border border-neutral-200 rounded-xl p-4 hover:border-indigo-500 hover:shadow-md transition duration-300">
+            <div class="flex items-center justify-between mb-2">
+              <span class="text-xs font-bold text-blue-600 bg-blue-50 px-2.5 py-1 rounded">法人向け</span>
+              <i data-lucide="file-text" class="w-4 h-4 text-neutral-400"></i>
+            </div>
+            <h4 class="text-base font-bold text-neutral-800 mb-1">Bill One</h4>
+            <p class="text-xs text-neutral-500 leading-relaxed">
+              郵送やメールなど、あらゆる方法で届く請求書をオンラインで一括受領し、社内フローをデジタル化。
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <!-- 3. 寺田氏の「起業家精神」 -->
+      <section id="mindset" class="mb-12 scroll-mt-6">
+        <h2 class="text-xl sm:text-2xl font-bold border-b-2 border-neutral-100 pb-2 mb-6 flex items-center gap-2 text-[#1a1a17]">
+          <span class="text-indigo-600">3.</span> 起業家精神（アントレプレナーシップ）を学ぶ
+        </h2>
+        <p class="text-sm text-neutral-600 mb-6 leading-relaxed">
+          学生の皆さんに、講義当日に特に掘り下げて考えてほしい寺田さんの<strong>「3つのブレイクスルー」</strong>を解説します。
+        </p>
+
+        <!-- アコーディオン/トグル風構成 -->
+        <div class="space-y-4">
+          <!-- ポイント1 -->
+          <div class="border border-neutral-200 rounded-xl bg-white overflow-hidden">
+            <button onclick="toggleAccordion('point1')" class="w-full text-left p-4 sm:p-5 flex justify-between items-center bg-neutral-50/50 hover:bg-neutral-50 transition">
+              <div class="flex items-center gap-3">
+                <span class="flex items-center justify-center w-8 h-8 rounded-full bg-indigo-100 text-indigo-700 font-bold text-sm shrink-0">①</span>
+                <span class="font-bold text-neutral-800 text-sm sm:text-base">「非効率」の中にブルーオーシャンを見つける</span>
+              </div>
+              <i id="point1-icon" data-lucide="chevron-down" class="w-5 h-5 text-neutral-400 transition-transform duration-200"></i>
+            </button>
+            <div id="point1-content" class="p-5 border-t border-neutral-200 text-sm text-neutral-600 leading-relaxed space-y-3 hidden">
+              <div>
+                <span class="inline-block px-2 py-0.5 text-xs font-bold bg-amber-100 text-amber-800 rounded mb-1.5">背景</span>
+                <p>創業当時の2007年、名刺は「机の引き出しに眠るもの」でした。誰もが面倒だと思いつつ放置していた領域でした。</p>
+              </div>
+              <div class="pt-2 border-t border-neutral-100">
+                <span class="inline-block px-2 py-0.5 text-xs font-bold bg-green-100 text-green-800 rounded mb-1.5">ここが凄い！</span>
+                <p>単なる個人用のデータ化ではなく、<strong>「組織内で人脈を共有する」</strong>という全く新しい価値（Sansan）を生み出し、未開拓の市場を作り上げました。</p>
+              </div>
+            </div>
+          </div>
+
+          <!-- ポイント2 -->
+          <div class="border border-neutral-200 rounded-xl bg-white overflow-hidden">
+            <button onclick="toggleAccordion('point2')" class="w-full text-left p-4 sm:p-5 flex justify-between items-center bg-neutral-50/50 hover:bg-neutral-50 transition">
+              <div class="flex items-center gap-3">
+                <span class="flex items-center justify-center w-8 h-8 rounded-full bg-indigo-100 text-indigo-700 font-bold text-sm shrink-0">②</span>
+                <span class="font-bold text-neutral-800 text-sm sm:text-base">諦めない「Deep Tech ✕ 泥臭さ」の融合</span>
+              </div>
+              <i id="point2-icon" data-lucide="chevron-down" class="w-5 h-5 text-neutral-400 transition-transform duration-200"></i>
+            </button>
+            <div id="point2-content" class="p-5 border-t border-neutral-200 text-sm text-neutral-600 leading-relaxed space-y-3 hidden">
+              <div>
+                <span class="inline-block px-2 py-0.5 text-xs font-bold bg-amber-100 text-amber-800 rounded mb-1.5">背景</span>
+                <p>機械による自動文字認識（OCR）の技術だけでは、日本語の複雑な名刺を「100%正確」にデータ化することは当時不可能でした。</p>
+              </div>
+              <div class="pt-2 border-t border-neutral-100">
+                <span class="inline-block px-2 py-0.5 text-xs font-bold bg-green-100 text-green-800 rounded mb-1.5">ここが凄い！</span>
+                <p>Sansanは「AI ＋ 人力オペレーターによる手入力」という、一見スマートではない極めて泥臭いハイブリッド型システムを構築。この<strong>「100%に近い圧倒的な正確性」</strong>がビジネスマンの信頼を掴み取り、最大の強み（参入障壁）となりました。</p>
+              </div>
+            </div>
+          </div>
+
+          <!-- ポイント3 -->
+          <div class="border border-neutral-200 rounded-xl bg-white overflow-hidden">
+            <button onclick="toggleAccordion('point3')" class="w-full text-left p-4 sm:p-5 flex justify-between items-center bg-neutral-50/50 hover:bg-neutral-50 transition">
+              <div class="flex items-center gap-3">
+                <span class="flex items-center justify-center w-8 h-8 rounded-full bg-indigo-100 text-indigo-700 font-bold text-sm shrink-0">③</span>
+                <span class="font-bold text-neutral-800 text-sm sm:text-base">ビジネスから「教育」へ。未来へのバトン</span>
+              </div>
+              <i id="point3-icon" data-lucide="chevron-down" class="w-5 h-5 text-neutral-400 transition-transform duration-200"></i>
+            </button>
+            <div id="point3-content" class="p-5 border-t border-neutral-200 text-sm text-neutral-600 leading-relaxed space-y-3 hidden">
+              <div>
+                <span class="inline-block px-2 py-0.5 text-xs font-bold bg-amber-100 text-amber-800 rounded mb-1.5">背景</span>
+                <p>「テクノロジー ✕ デザイン ✕ 起業家精神」を若者に伝えるため、過疎化が進む徳島県神山町に私立高等専門学校の設立を構想しました。</p>
+              </div>
+              <div class="pt-2 border-t border-neutral-100">
+                <span class="inline-block px-2 py-0.5 text-xs font-bold bg-green-100 text-green-800 rounded mb-1.5">ここが凄い！</span>
+                <p>一過性の成功で留まることなく、<strong>「次の時代の起業家を育てるシステム（神山まるごと高専）」</strong>を自ら創り出しました。地域創生を巻き込んだ、これまでにない大規模な教育イノベーションに挑み続けています。</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- 4. 【要提出】事前ワーク -->
+      <section id="homework" class="mb-10 scroll-mt-6">
+        <div class="p-6 bg-gradient-to-br from-indigo-50 to-indigo-100/50 rounded-2xl border border-indigo-200/60">
+          <h2 class="text-xl sm:text-2xl font-bold mb-4 flex items-center gap-2 text-indigo-900">
+            <i data-lucide="check-square" class="w-6 h-6 text-indigo-600"></i>
+            【要提出】講義に向けた事前ワーク
+          </h2>
+          <p class="text-sm text-indigo-950/80 mb-6 leading-relaxed">
+            講義を一方的に聞くだけでなく、自分の頭で考えるトレーニングです。<strong>回答を入力して「回答を保存・ダウンロード」をクリックし、当日までに振り返り用として手元に準備しておきましょう。</strong>
+          </p>
+
+          <!-- 事前課題フォーム -->
+          <form id="prework-form" class="space-y-6" onsubmit="event.preventDefault();">
+            <!-- Q1 -->
+            <div>
+              <label class="block text-sm font-bold text-neutral-800 mb-2">
+                <span class="bg-indigo-200 text-indigo-800 px-1.5 py-0.5 rounded text-xs mr-1">Q1</span>
+                普段の生活で「みんなが当たり前に不便（非効率）に思っているけれど、解決されていないこと」はどんなことですか？
+              </label>
+              <textarea id="q1" rows="3" placeholder="（例）講義の出席登録や資料の配布が毎回バラバラで時間がかかること。塾の紙の連絡帳。など自由に考えてみよう！" class="w-full text-sm rounded-lg border border-neutral-300 p-3 focus:border-indigo-500 focus:ring-1 focus:ring-indigo-500 outline-none transition"></textarea>
+            </div>
+
+            <!-- Q2 -->
+            <div>
+              <label class="block text-sm font-bold text-neutral-800 mb-2">
+                <span class="bg-indigo-200 text-indigo-800 px-1.5 py-0.5 rounded text-xs mr-1">Q2</span>
+                寺田さんの「名刺管理」や「高専設立」のストーリーを読んで、一番「なぜそれをやったんだろう？」と疑問に思ったことは何ですか？
+              </label>
+              <textarea id="q2" rows="3" placeholder="（例）周りの人から『無理だ』『無駄だ』と言われた時に、どうやって自分のアイデアを信じ続けたのか知りたい。" class="w-full text-sm rounded-lg border border-neutral-300 p-3 focus:border-indigo-500 focus:ring-1 focus:ring-indigo-500 outline-none transition"></textarea>
+            </div>
+
+            <!-- Q3 -->
+            <div>
+              <label class="block text-sm font-bold text-neutral-800 mb-2">
+                <span class="bg-indigo-200 text-indigo-800 px-1.5 py-0.5 rounded text-xs mr-1">Q3</span>
+                当日、寺田理事長に直接聞いてみたい質問を書いてください。（熱い質問を待っています！）
+              </label>
+              <textarea id="q3" rows="3" placeholder="（例）これからの社会で一番必要とされる『デザインとテクノロジーのスキル』とは何でしょうか？" class="w-full text-sm rounded-lg border border-neutral-300 p-3 focus:border-indigo-500 focus:ring-1 focus:ring-indigo-500 outline-none transition"></textarea>
+            </div>
+
+            <!-- 学生名入力 -->
+            <div class="grid grid-cols-1 sm:grid-cols-2 gap-4 pt-2">
+              <div>
+                <label class="block text-xs font-bold text-neutral-500 uppercase mb-1">学籍番号</label>
+                <input type="text" id="student-id" placeholder="例: 123456" class="w-full text-sm rounded-lg border border-neutral-300 p-2.5 focus:border-indigo-500 focus:ring-1 focus:ring-indigo-500 outline-none transition">
+              </div>
+              <div>
+                <label class="block text-xs font-bold text-neutral-500 uppercase mb-1">お名前</label>
+                <input type="text" id="student-name" placeholder="例: 山田 太郎" class="w-full text-sm rounded-lg border border-neutral-300 p-2.5 focus:border-indigo-500 focus:ring-1 focus:ring-indigo-500 outline-none transition">
+              </div>
+            </div>
+
+            <!-- ✨ AI起業家思考フィードバックセクション -->
+            <div class="mt-8 pt-6 border-t border-indigo-200/50">
+              <div class="bg-white rounded-xl p-5 border border-amber-200 bg-amber-50/20">
+                <div class="flex items-center gap-2 mb-3">
+                  <span class="text-xl">✨</span>
+                  <h3 class="font-bold text-sm sm:text-base text-amber-900">AI思考フィードバック & 質問ブラッシュアップ</h3>
+                </div>
+                <p class="text-xs text-amber-800/80 mb-4 leading-relaxed">
+                  あなたが記入した事前ワークの内容をもとに、Geminiが「寺田理事長の起業家精神・ビジョン」の視点からフィードバックし、当日の質問をよりシャープにするためのヒントを提供します！
+                </p>
+                
+                <button type="button" onclick="getAIFeedback()" class="w-full bg-gradient-to-r from-amber-500 to-indigo-600 hover:from-amber-600 hover:to-indigo-700 text-white font-bold py-3 px-4 rounded-xl shadow-sm transition flex items-center justify-center gap-2">
+                  <span>✨ AI起業家思考メンターにフィードバックをもらう</span>
+                </button>
+
+                <!-- ローディング表示 -->
+                <div id="ai-loading" class="hidden mt-6 text-center">
+                  <div class="inline-block animate-spin rounded-full h-8 w-8 border-4 border-indigo-500 border-t-transparent mb-2"></div>
+                  <p class="text-xs text-neutral-500">寺田氏の思考モデルを読み込み中...（約5〜10秒）</p>
+                </div>
+
+                <!-- 結果表示エリア -->
+                <div id="ai-result-box" class="hidden mt-6 p-4 rounded-xl bg-white border border-indigo-100 shadow-sm">
+                  <div class="flex items-center justify-between border-b border-neutral-100 pb-2 mb-3">
+                    <span class="text-xs font-bold text-indigo-600 flex items-center gap-1">
+                      <i data-lucide="sparkles" class="w-3.5 h-3.5"></i> AIメンターからの助言
+                    </span>
+                    <button type="button" onclick="clearAIFeedback()" class="text-xs text-neutral-400 hover:text-neutral-600">クリア</button>
+                  </div>
+                  <div id="ai-result-content" class="text-sm text-neutral-700 leading-relaxed whitespace-pre-wrap"></div>
+                </div>
+              </div>
+            </div>
+
+            <!-- アクションボタン -->
+            <div class="flex flex-col sm:flex-row gap-3 pt-4">
+              <button type="button" onclick="saveToLocal()" class="flex-1 bg-indigo-600 hover:bg-indigo-700 text-white font-bold py-3 px-4 rounded-xl shadow-sm transition flex items-center justify-center gap-2">
+                <i data-lucide="save" class="w-5 h-5"></i>
+                ブラウザに回答を一時保存
+              </button>
+              <button type="button" onclick="downloadAnswers()" class="bg-neutral-800 hover:bg-neutral-900 text-white font-bold py-3 px-6 rounded-xl shadow-sm transition flex items-center justify-center gap-2">
+                <i data-lucide="download" class="w-5 h-5"></i>
+                TXTでダウンロード
+              </button>
+            </div>
+            
+            <p id="status-message" class="text-center text-xs font-semibold text-green-600 h-4 mt-2 transition"></p>
+          </form>
+        </div>
+      </section>
+
+      <!-- 5. 関連リンク -->
+      <section id="links" class="pt-6 border-t border-neutral-100">
+        <h3 class="text-sm font-bold text-neutral-400 uppercase tracking-wider mb-4">🔗 もっと知りたい人のための参考リンク</h3>
+        
+        <div class="grid grid-cols-1 sm:grid-cols-2 gap-4">
+          <!-- リンク1 -->
+          <a href="https://jp.corp-sansan.com/" target="_blank" rel="noopener noreferrer" class="group flex items-start gap-3 p-3.5 rounded-xl border border-neutral-200 hover:border-indigo-500 hover:bg-indigo-50/10 transition">
+            <span class="p-2 bg-neutral-100 group-hover:bg-indigo-100 rounded-lg text-neutral-500 group-hover:text-indigo-600 transition shrink-0">
+              <i data-lucide="external-link" class="w-5 h-5"></i>
+            </span>
+            <div>
+              <p class="text-sm font-bold text-neutral-800 group-hover:text-indigo-600 transition">Sansan株式会社 コーポレート</p>
+              <p class="text-xs text-neutral-400 mt-1">「出会いからイノベーションを生み出す」ビジネスデータベース企業</p>
+            </div>
+          </a>
+
+          <!-- リンク2 -->
+          <a href="https://kamiyama.ac.jp/" target="_blank" rel="noopener noreferrer" class="group flex items-start gap-3 p-3.5 rounded-xl border border-neutral-200 hover:border-indigo-500 hover:bg-indigo-50/10 transition">
+            <span class="p-2 bg-neutral-100 group-hover:bg-indigo-100 rounded-lg text-neutral-500 group-hover:text-indigo-600 transition shrink-0">
+              <i data-lucide="external-link" class="w-5 h-5"></i>
+            </span>
+            <div>
+              <p class="text-sm font-bold text-neutral-800 group-hover:text-indigo-600 transition">神山まるごと高専</p>
+              <p class="text-xs text-neutral-400 mt-1">テクノロジー✕デザイン✕起業家精神を学ぶ5年制の私立高専</p>
+            </div>
+          </a>
+        </div>
+      </section>
+
+    </div>
+
+    <!-- フッター -->
+    <footer class="mt-8 text-center text-xs text-neutral-400">
+      <p>© 2026 起業家教育プログラム推進局</p>
+      <p class="mt-1">Designed with Passion for Next Generation Entrepreneurs</p>
+    </footer>
+
+  </main>
+
+  <script>
+    // Gemini APIキー設定
+    const apiKey = ""; // ランタイム時に環境変数から注入されます。
+
+    // Lucideアイコンの初期化
+    lucide.createIcons();
+
+    // トグル・アコーディオン機能
+    function toggleAccordion(id) {
+      const content = document.getElementById(`${id}-content`);
+      const icon = document.getElementById(`${id}-icon`);
+      
+      if (content.classList.contains('hidden')) {
+        content.classList.remove('hidden');
+        icon.style.transform = 'rotate(180deg)';
+      } else {
+        content.classList.add('hidden');
+        icon.style.transform = 'rotate(0deg)';
+      }
+    }
+
+    // ローカルストレージに回答を一時保存
+    function saveToLocal() {
+      const data = {
+        q1: document.getElementById('q1').value,
+        q2: document.getElementById('q2').value,
+        q3: document.getElementById('q3').value,
+        studentId: document.getElementById('student-id').value,
+        studentName: document.getElementById('student-name').value
+      };
+      
+      localStorage.setItem('sansan_prework', JSON.stringify(data));
+      
+      const statusMsg = document.getElementById('status-message');
+      statusMsg.innerText = "ブラウザに一時保存しました！当日まで消去されません。";
+      statusMsg.className = "text-center text-xs font-semibold text-indigo-600 mt-2";
+      
+      setTimeout(() => {
+        statusMsg.innerText = "";
+      }, 4000);
+    }
+
+    // 保存データの自動読み込み
+    window.addEventListener('load', () => {
+      const savedData = localStorage.getItem('sansan_prework');
+      if (savedData) {
+        const data = JSON.parse(savedData);
+        document.getElementById('q1').value = data.q1 || '';
+        document.getElementById('q2').value = data.q2 || '';
+        document.getElementById('q3').value = data.q3 || '';
+        document.getElementById('student-id').value = data.studentId || '';
+        document.getElementById('student-name').value = data.studentName || '';
+      }
+    });
+
+    // テキストファイルとして回答をダウンロード
+    function downloadAnswers() {
+      const q1 = document.getElementById('q1').value;
+      const q2 = document.getElementById('q2').value;
+      const q3 = document.getElementById('q3').value;
+      const studentId = document.getElementById('student-id').value || "未入力";
+      const studentName = document.getElementById('student-name').value || "未入力";
+
+      const text = `【事前学習ワークシート】起業家講義：Sansan 寺田親弘 氏
+--------------------------------------------------
+■ 学籍番号 : ${studentId}
+■ お名前   : ${studentName}
+--------------------------------------------------
+
+Q1. 普段の生活で「みんなが当たり前に不便（非効率）に思っているけれど、解決されていないこと」は何ですか？
+[回答]:
+${q1}
+
+--------------------------------------------------
+
+Q2. 寺田さんの「名刺管理」や「高専設立」のストーリーを読んで、一番「なぜそれをやったんだろう？」と疑問に思ったことは何ですか？
+[回答]:
+${q2}
+
+--------------------------------------------------
+
+Q3. 当日、寺田理事長に直接聞いてみたい質問
+[回答]:
+${q3}
+
+--------------------------------------------------
+提出準備用。お疲れ様でした！講義当日をお楽しみに！`;
+
+      const blob = new Blob([text], { type: "text/plain;charset=utf-8" });
+      const link = document.createElement("a");
+      link.href = URL.createObjectURL(blob);
+      link.download = `事前ワーク_${studentName}.txt`;
+      link.click();
+      URL.revokeObjectURL(link.href);
+    }
+
+    // === Gemini API 連携ロジック ===
+
+    // 指数バックオフ付きの API 送信処理
+    async function callGeminiAPI(prompt, systemInstruction) {
+      const url = `https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash-preview-09-2025:generateContent?key=${apiKey}`;
+      const payload = {
+        contents: [{ parts: [{ text: prompt }] }],
+        systemInstruction: { parts: [{ text: systemInstruction }] }
+      };
+
+      let delay = 1000;
+      for (let i = 0; i < 5; i++) {
+        try {
+          const response = await fetch(url, {
+            method: "POST",
+            headers: { "Content-Type": "application/json" },
+            body: JSON.stringify(payload)
+          });
+          
+          if (response.ok) {
+            const result = await response.json();
+            return result.candidates?.[0]?.content?.parts?.[0]?.text;
+          }
+        } catch (error) {
+          // エラーが発生した場合はリトライ
+        }
+        await new Promise(resolve => setTimeout(resolve, delay));
+        delay *= 2;
+      }
+      throw new Error("APIの呼び出しに失敗しました。時間をおいてもう一度お試しください。");
+    }
+
+    // AIフィードバックの取得
+    async function getAIFeedback() {
+      const q1 = document.getElementById('q1').value.trim();
+      const q2 = document.getElementById('q2').value.trim();
+      const q3 = document.getElementById('q3').value.trim();
+      const studentName = document.getElementById('student-name').value.trim() || "学生さん";
+
+      // 未入力チェック
+      if (!q1 && !q2 && !q3) {
+        showStatusMessage("フィードバックを得るには、事前ワークの質問（Q1〜Q3）に1つ以上回答を記入してください。", "text-red-500");
+        return;
+      }
+
+      // UIをローディング表示に
+      const loadingEl = document.getElementById('ai-loading');
+      const resultBox = document.getElementById('ai-result-box');
+      const resultContent = document.getElementById('ai-result-content');
+      
+      loadingEl.classList.remove('hidden');
+      resultBox.classList.add('hidden');
+      resultContent.innerText = "";
+
+      const systemInstruction = `あなたはSansan創業者の寺田親弘氏の起業家精神や思考法、神山まるごと高専の設立理念を極めて深く理解している「AI起業家思考メンター」です。
+学生が記述した特別講義の事前ワーク回答を読み、寺田氏の「非効率を価値に変える」「泥臭さを強みに変える」「教育・未来への投資」という3つのアントレプレナー精神に基づいて、以下のガイドラインに従ってフィードバックを行ってください：
+
+1. まず学生の熱意や着眼点をポジティブに肯定・評価してください。
+2. 起業家的観点から、その回答をもう一歩掘り下げるための「気づき」や「切り口」をアドバイスしてください。
+3. 当日、寺田親弘氏にぶつける質問（Q3）をさらに鋭く、かつ本質的にするためのブラッシュアップ案を1つ具体的に提案してください。
+4. 口調は熱意にあふれつつも、学生に寄り添うメンターらしく、丁寧で知的に（Notionのドキュメントのように見やすく）記述してください。
+5. 返答全体は300〜400文字程度にコンパクトにまとめてください。`;
+
+      const prompt = `学生名: ${studentName}
+
+【事前ワーク回答】
+Q1 (日常生活の中の非効率/不便): 
+${q1 || "（未回答）"}
+
+Q2 (寺田氏のストーリーに対する疑問): 
+${q2 || "（未回答）"}
+
+Q3 (寺田氏への当日質問): 
+${q3 || "（未回答）"}`;
+
+      try {
+        const feedbackText = await callGeminiAPI(prompt, systemInstruction);
+        resultContent.innerText = feedbackText;
+        resultBox.classList.remove('hidden');
+      } catch (error) {
+        resultContent.innerHTML = `<span class="text-red-500 font-semibold">${error.message}</span>`;
+        resultBox.classList.remove('hidden');
+      } finally {
+        loadingEl.classList.add('hidden');
+      }
+    }
+
+    // フィードバックのクリア
+    function clearAIFeedback() {
+      document.getElementById('ai-result-box').classList.add('hidden');
+      document.getElementById('ai-result-content').innerText = "";
+    }
+
+    // ステータスメッセージのヘルパー
+    function showStatusMessage(message, textClass) {
+      const statusMsg = document.getElementById('status-message');
+      statusMsg.innerText = message;
+      statusMsg.className = `text-center text-xs font-semibold ${textClass} mt-2`;
+      setTimeout(() => {
+        statusMsg.innerText = "";
+      }, 4000);
+    }
+  </script>
+</body>
+</html>
