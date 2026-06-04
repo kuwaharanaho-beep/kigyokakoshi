@@ -317,40 +317,6 @@
               </div>
             </div>
 
-            <!-- ✨ AI起業家思考フィードバックセクション -->
-            <div class="mt-8 pt-6 border-t border-indigo-200/50">
-              <div class="bg-white rounded-xl p-5 border border-amber-200 bg-amber-50/20">
-                <div class="flex items-center gap-2 mb-3">
-                  <span class="text-xl">✨</span>
-                  <h3 class="font-bold text-sm sm:text-base text-amber-900">AI思考フィードバック & 質問ブラッシュアップ</h3>
-                </div>
-                <p class="text-xs text-amber-800/80 mb-4 leading-relaxed">
-                  あなたが記入した事前ワークの内容をもとに、Geminiが「寺田理事長の起業家精神・ビジョン」の視点からフィードバックし、当日の質問をよりシャープにするためのヒントを提供します！
-                </p>
-                
-                <button type="button" onclick="getAIFeedback()" class="w-full bg-gradient-to-r from-amber-500 to-indigo-600 hover:from-amber-600 hover:to-indigo-700 text-white font-bold py-3 px-4 rounded-xl shadow-sm transition flex items-center justify-center gap-2">
-                  <span>✨ AI起業家思考メンターにフィードバックをもらう</span>
-                </button>
-
-                <!-- ローディング表示 -->
-                <div id="ai-loading" class="hidden mt-6 text-center">
-                  <div class="inline-block animate-spin rounded-full h-8 w-8 border-4 border-indigo-500 border-t-transparent mb-2"></div>
-                  <p class="text-xs text-neutral-500">寺田氏の思考モデルを読み込み中...（約5〜10秒）</p>
-                </div>
-
-                <!-- 結果表示エリア -->
-                <div id="ai-result-box" class="hidden mt-6 p-4 rounded-xl bg-white border border-indigo-100 shadow-sm">
-                  <div class="flex items-center justify-between border-b border-neutral-100 pb-2 mb-3">
-                    <span class="text-xs font-bold text-indigo-600 flex items-center gap-1">
-                      <i data-lucide="sparkles" class="w-3.5 h-3.5"></i> AIメンターからの助言
-                    </span>
-                    <button type="button" onclick="clearAIFeedback()" class="text-xs text-neutral-400 hover:text-neutral-600">クリア</button>
-                  </div>
-                  <div id="ai-result-content" class="text-sm text-neutral-700 leading-relaxed whitespace-pre-wrap"></div>
-                </div>
-              </div>
-            </div>
-
             <!-- アクションボタン -->
             <div class="flex flex-col sm:flex-row gap-3 pt-4">
               <button type="button" onclick="saveToLocal()" class="flex-1 bg-indigo-600 hover:bg-indigo-700 text-white font-bold py-3 px-4 rounded-xl shadow-sm transition flex items-center justify-center gap-2">
