@@ -43,7 +43,7 @@
 
       <!-- タイトル -->
       <h1 class="text-2xl sm:text-4xl font-extrabold tracking-tight text-[#1A1A17] mb-4 leading-tight">
-        起業家研究：Sansan株式会社 創業社長 寺田 親弘 氏
+        起業家探究：Sansan株式会社 創業社長 寺田 親弘 氏
       </h1>
 
       <p class="text-sm text-neutral-500 mb-6 flex items-center gap-2">
@@ -58,7 +58,7 @@
           <i data-lucide="info" class="w-5 h-5 shrink-0 text-indigo-500"></i>
           <div>
             <strong class="font-bold block mb-1">学生の皆さんへ</strong>
-            次回の「起業家講義」には、当法人の理事長であり、Sansan株式会社の創業者である<strong>寺田親弘さん</strong>が登壇されます。講義を100%吸収し、熱い議論を交わすために、事前にこの記事を読み込んで「自分ならどうするか？」という視点を持って当日挑みましょう！
+            次回の「起業家講師 Night」には、当法人の理事長であり、Sansan株式会社の創業者である<strong>寺田親弘さん</strong>が登壇されます。講義を100%吸収し、熱い議論を交わすために、事前にこの記事を読み込んで「自分ならどうするか？」という視点を持って当日挑みましょう！
           </div>
         </div>
       </div>
@@ -187,7 +187,7 @@
           <span class="text-indigo-600">3.</span> 起業家精神（アントレプレナーシップ）を学ぶ
         </h2>
         <p class="text-sm text-neutral-600 mb-6 leading-relaxed">
-          学生の皆さんに、講義当日に特に掘り下げて考えてほしい寺田さんの<strong>「3つのブレイクスルー」</strong>を解説します。
+          学生の皆さんに、当日に特に掘り下げて考えてほしい寺田さんの<strong>「3つのブレイクスルー」</strong>を解説します。
         </p>
 
         <!-- アコーディオン/トグル風構成 -->
@@ -262,10 +262,10 @@
         <div class="p-6 bg-gradient-to-br from-indigo-50 to-indigo-100/50 rounded-2xl border border-indigo-200/60">
           <h2 class="text-xl sm:text-2xl font-bold mb-4 flex items-center gap-2 text-indigo-900">
             <i data-lucide="check-square" class="w-6 h-6 text-indigo-600"></i>
-            【要提出】講義に向けた事前ワーク
+            【要提出】授業に向けた事前ワーク
           </h2>
           <p class="text-sm text-indigo-950/80 mb-6 leading-relaxed">
-            講義を一方的に聞くだけでなく、自分の頭で考えるトレーニングです。<strong>回答を入力して「回答を保存・ダウンロード」をクリックし、当日までに振り返り用として手元に準備しておきましょう。</strong>
+            授業を一方的に聞くだけでなく、自分の頭で考えるトレーニングです。<strong>回答を入力して「回答を保存・ダウンロード」をクリックし、当日までに振り返り用として手元に準備しておきましょう。</strong>
           </p>
 
           <!-- 事前課題フォーム -->
@@ -276,7 +276,7 @@
                 <span class="bg-indigo-200 text-indigo-800 px-1.5 py-0.5 rounded text-xs mr-1">Q1</span>
                 普段の生活で「みんなが当たり前に不便（非効率）に思っているけれど、解決されていないこと」はどんなことですか？
               </label>
-              <textarea id="q1" rows="3" placeholder="（例）講義の出席登録や資料の配布が毎回バラバラで時間がかかること。塾の紙の連絡帳。など自由に考えてみよう！" class="w-full text-sm rounded-lg border border-neutral-300 p-3 focus:border-indigo-500 focus:ring-1 focus:ring-indigo-500 outline-none transition"></textarea>
+              <textarea id="q1" rows="3" placeholder="（例）授業の出席登録や資料の配布が毎回バラバラで時間がかかること。塾の紙の連絡帳。など自由に考えてみよう！" class="w-full text-sm rounded-lg border border-neutral-300 p-3 focus:border-indigo-500 focus:ring-1 focus:ring-indigo-500 outline-none transition"></textarea>
             </div>
 
             <!-- Q2 -->
@@ -428,7 +428,7 @@
       const studentId = document.getElementById('student-id').value || "未入力";
       const studentName = document.getElementById('student-name').value || "未入力";
 
-      const text = `【事前学習ワークシート】起業家講義：Sansan 寺田親弘 氏
+      const text = `【事前学習ワークシート】起業家講師 Night：Sansan 寺田親弘 氏
 --------------------------------------------------
 ■ 学籍番号 : ${studentId}
 ■ お名前   : ${studentName}
@@ -451,7 +451,7 @@ Q3. 当日、寺田理事長に直接聞いてみたい質問
 ${q3}
 
 --------------------------------------------------
-提出準備用。お疲れ様でした！講義当日をお楽しみに！`;
+提出準備用。お疲れ様でした！授業当日をお楽しみに！`;
 
       const blob = new Blob([text], { type: "text/plain;charset=utf-8" });
       const link = document.createElement("a");
