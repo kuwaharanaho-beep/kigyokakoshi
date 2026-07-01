@@ -11,7 +11,7 @@
   <!-- Custom Google Font (Noto Sans JP) -->
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@300;400;500;700;900&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght=300;400;500;700;900&display=swap" rel="stylesheet">
   <style>
     body {
       font-family: 'Noto Sans JP', sans-serif;
@@ -24,18 +24,10 @@
 <body class="bg-[#FBFBFA] text-[#37352F] antialiased selection:bg-emerald-100">
 
   <!-- ヘッダーカバー画像風グラデーション（ウェルネスグリーン & テックブルー） -->
-  <div class="w-full h-48 md:h-64 bg-gradient-to-r from-emerald-800 via-teal-900 to-cyan-900 relative flex items-end overflow-hidden">
+  <div class="w-full h-40 md:h-52 bg-gradient-to-r from-emerald-800 via-teal-900 to-cyan-900 relative flex items-end overflow-hidden">
     <!-- 装飾的な光の輪 -->
     <div class="absolute -top-10 -left-10 w-40 h-40 md:w-72 md:h-72 bg-emerald-500 rounded-full blur-3xl opacity-20"></div>
     <div class="absolute -bottom-10 -right-10 w-40 h-40 md:w-72 md:h-72 bg-cyan-500 rounded-full blur-3xl opacity-20"></div>
-    
-    <!-- カバー上のバッジ情報 -->
-    <div class="max-w-4xl w-full mx-auto px-6 pb-6 z-10">
-      <span class="inline-flex items-center gap-1.5 px-3 py-1 rounded-full text-xs font-semibold bg-emerald-500/20 text-emerald-300 border border-emerald-500/30 backdrop-blur-md">
-        <span class="w-2 h-2 rounded-full bg-emerald-400 animate-pulse"></span>
-        起業家講師 Night：事前学習
-      </span>
-    </div>
   </div>
 
   <!-- メインコンテンツ -->
@@ -55,7 +47,7 @@
       </h1>
 
       <p class="text-sm text-neutral-500 mb-6 flex items-center gap-2">
-        <i data-lucide="calendar" class="w-4 h-4"></i> 起業家講師 Night シリーズ
+        <i data-lucide="sparkles" class="w-4 h-4 text-emerald-600"></i> 起業家講師 Night 特別セッション
         <span class="text-neutral-300">|</span> 
         <i data-lucide="clock" class="w-4 h-4"></i> 所要時間: 約15分
       </p>
@@ -66,7 +58,7 @@
           <i data-lucide="info" class="w-5 h-5 shrink-0 text-emerald-600"></i>
           <div>
             <strong class="font-bold block mb-1">学生の皆さんへ</strong>
-            次回の「起業家講師 Night」では、パーソナルウェルネス領域で個人の健康に寄り添う<strong>山田真愛さん</strong>と、テクノロジーで不動産業界の働き方をアップデートする<strong>越智健心さん</strong>をお迎えします。それぞれの領域で「従来の業界構造」をどう変革しているのか、個々の熱いストーリーから学び取りましょう！
+            次回の「起業家講師 Night」では、パーソナルウェルネス領域で個人の健康に寄り添う<strong>山田真愛さん</strong>と、テクノロジーで不動産業界の働き方をアップデートする<strong>越智健心さん</strong>をお迎えします。それぞれの領域で「従来の業界構造」をどう変革しているのか、お二人の客観的な事業背景と視点から事前に学びを深めましょう！
           </div>
         </div>
       </div>
@@ -91,64 +83,90 @@
       </div>
 
       <!-- 1. 山田 真愛 氏 プロフィール -->
-      <section id="profile-yamada" class="mb-12 scroll-mt-6">
+      <section id="profile-yamada" class="mb-14 scroll-mt-6">
         <h2 class="text-xl sm:text-2xl font-bold border-b-2 border-neutral-100 pb-2 mb-6 flex items-center gap-2 text-[#1a1a17]">
           <span class="text-emerald-600">1.</span> 山田 真愛 氏（株式会社My Fit）
         </h2>
         
-        <div class="grid grid-cols-1 md:grid-cols-12 gap-6 items-start">
+        <div class="grid grid-cols-1 md:grid-cols-12 gap-6 items-center mb-6">
           <div class="md:col-span-4 flex justify-center">
-            <!-- 講師写真用SVGプレースホルダー -->
-            <div class="w-40 h-40 sm:w-48 sm:h-48 rounded-2xl bg-gradient-to-tr from-emerald-100 to-teal-50 border border-emerald-200 shadow-sm flex flex-col items-center justify-center text-center p-4">
-              <i data-lucide="leaf" class="w-16 h-16 text-emerald-500 mb-2"></i>
+            <!-- 葉っぱをモチーフにした洗練されたプレースホルダー -->
+            <div class="relative w-40 h-40 sm:w-44 sm:h-44 rounded-2xl border border-emerald-200 bg-gradient-to-tr from-emerald-100 to-teal-50 shadow-sm flex flex-col items-center justify-center text-center p-4">
+              <i data-lucide="leaf" class="w-16 h-16 text-emerald-600 mb-2"></i>
               <span class="text-xs font-bold text-emerald-800 tracking-wider">山田 真愛 氏</span>
               <span class="text-[10px] text-neutral-500 mt-1">株式会社My Fit / CEO</span>
             </div>
           </div>
           
           <div class="md:col-span-8">
-            <h3 class="text-2xl font-black text-neutral-800 mb-1">山田 真愛 <span class="text-sm font-normal text-neutral-500">（やまだ まい）</span></h3>
+            <h3 class="text-2xl font-black text-neutral-800 mb-1">山田 真愛 <span class="text-sm font-normal text-neutral-500">（やまだ まな）</span></h3>
             <p class="text-sm font-semibold text-emerald-600 mb-4">株式会社My Fit 代表取締役 CEO</p>
             
             <ul class="space-y-2.5 text-sm text-neutral-600">
               <li class="flex gap-2">
                 <span class="text-emerald-500 font-bold shrink-0">・</span>
-                <span>自分に合ったライフスタイルや健康管理をパーソナライズ化して提案する「My Fit」を創業。</span>
+                <span>自分に合った健康管理をパーソナライズして提案する、次世代ヘルスケアブランド「My Fit」を創業。</span>
               </li>
               <li class="flex gap-2">
                 <span class="text-emerald-500 font-bold shrink-0">・</span>
-                <span>個人の遺伝子やライフスタイルに基づいたオーダーメイド型のプロテインやサプリメントのサービス等をプロデュース。</span>
+                <span>個人のライフスタイルや身体データに基づき、プロテイン等のオーダーメイド製品をD2Cで展開。</span>
               </li>
               <li class="flex gap-2">
                 <span class="text-emerald-500 font-bold shrink-0">・</span>
-                <span>「誰もが自分らしく、すこやかに生きられる社会」を目指し、ヘルスケア✕D2C（Direct to Consumer）領域で新しい価値を提供。</span>
+                <span>「誰もが自分自身の身体を一番愛せる状態を作る」をビジョンに掲げ、D2C（消費者直接取引）モデルで成長を続ける。</span>
               </li>
             </ul>
           </div>
         </div>
 
-        <!-- 講師から学ぶ注目ポイント（フラットデザイン） -->
-        <div class="mt-6 bg-emerald-50/50 border border-emerald-100 rounded-xl p-5">
-          <h4 class="text-sm font-bold text-emerald-800 flex items-center gap-1.5 mb-2">
-            <i data-lucide="compass" class="w-4 h-4"></i> 山田氏の「起業家探究」注目ポイント
-          </h4>
-          <p class="text-sm text-neutral-700 leading-relaxed">
-            大量生産・大量消費の時代から、<strong>「一人ひとりに最適化されたパーソナライズ」</strong>の時代へ。個人の多様な悩みに寄り添い、サービスを直接届けるD2Cモデルをいかにして構築したのか、女性若手起業家としてのリアルな挑戦のプロセスに注目です。
-          </p>
+        <!-- 💡 サービス誕生の背景（客観ベース） -->
+        <div class="space-y-4">
+          <div class="bg-emerald-50/30 border border-emerald-100 rounded-xl p-5">
+            <h4 class="text-sm font-bold text-emerald-800 flex items-center gap-1.5 mb-2">
+              <i data-lucide="history" class="w-4 h-4"></i> 💡 サービス誕生の背景：ウェルネスD2C市場の開拓
+            </h4>
+            <p class="text-sm text-neutral-700 leading-relaxed">
+              従来の健康食品やサプリメントは「画一的な商品を大量生産する」形態が主流でした。しかし、ライフスタイルの多様化に伴い、「自分に本当に必要な栄養がわからない」という消費者の課題が顕在化。個人データの分析に基づき商品をパーソナライズ化し、インターネット直販（D2C）で顧客と直接つながる新しいヘルスケア提供モデルを構築しました。
+            </p>
+          </div>
+
+          <!-- 🎓 探究の視点 -->
+          <div class="bg-neutral-50 border border-neutral-200/50 rounded-xl p-5">
+            <h4 class="text-sm font-bold text-neutral-800 flex items-center gap-1.5 mb-2">
+              <i data-lucide="microscope" class="w-4 h-4"></i> 🎓 起業家探究の着眼点
+            </h4>
+            <p class="text-sm text-neutral-700 leading-relaxed">
+              自社製造設備を持たないスタートアップが、どのようにして製造パートナーを巻き込み、新しいオーダーメイド型D2C製品を世に送り出すことができたのか。アイデアを具体的な形にするための「パートナーシップ構築能力」や「顧客起点の製品設計」に焦点を当てて探究しましょう。
+            </p>
+          </div>
+
+          <!-- 🔍 キーワード解説 -->
+          <div class="grid grid-cols-1 sm:grid-cols-2 gap-3">
+            <div class="border border-neutral-200 rounded-xl p-4 bg-white">
+              <span class="text-[10px] font-bold text-emerald-600 uppercase tracking-wider bg-emerald-50 px-2 py-0.5 rounded">キーワード ①</span>
+              <h5 class="text-sm font-bold text-neutral-800 mt-1 mb-1">D2C (Direct to Consumer)</h5>
+              <p class="text-xs text-neutral-500 leading-relaxed">中間の卸売や小売店を通さず、自社サイトを通じて消費者に直接製品を販売する仕組み。顧客データを直接活かしたマーケティングが可能です。</p>
+            </div>
+            <div class="border border-neutral-200 rounded-xl p-4 bg-white">
+              <span class="text-[10px] font-bold text-emerald-600 uppercase tracking-wider bg-emerald-50 px-2 py-0.5 rounded">キーワード ②</span>
+              <h5 class="text-sm font-bold text-neutral-800 mt-1 mb-1">パーソナライズヘルスケア</h5>
+              <p class="text-xs text-neutral-500 leading-relaxed">消費者の年齢、体質、ライフスタイルなどの個別の情報に基づき、一人ひとりに適したヘルスケア製品やサービスを提供するアプローチ。</p>
+            </div>
+          </div>
         </div>
       </section>
 
       <!-- 2. 越智 健心 氏 プロフィール -->
-      <section id="profile-ochi" class="mb-12 scroll-mt-6">
+      <section id="profile-ochi" class="mb-14 scroll-mt-6">
         <h2 class="text-xl sm:text-2xl font-bold border-b-2 border-neutral-100 pb-2 mb-6 flex items-center gap-2 text-[#1a1a17]">
           <span class="text-cyan-600">2.</span> 越智 健心 氏（TRASS株式会社）
         </h2>
         
-        <div class="grid grid-cols-1 md:grid-cols-12 gap-6 items-start">
+        <div class="grid grid-cols-1 md:grid-cols-12 gap-6 items-center mb-6">
           <div class="md:col-span-4 flex justify-center">
-            <!-- 講師写真用SVGプレースホルダー -->
-            <div class="w-40 h-40 sm:w-48 sm:h-48 rounded-2xl bg-gradient-to-tr from-cyan-100 to-blue-50 border border-cyan-200 shadow-sm flex flex-col items-center justify-center text-center p-4">
-              <i data-lucide="home" class="w-16 h-16 text-cyan-500 mb-2"></i>
+            <!-- 不動産・テクノロジーをモチーフにしたプレースホルダー -->
+            <div class="relative w-40 h-40 sm:w-44 sm:h-44 rounded-2xl border border-cyan-200 bg-gradient-to-tr from-cyan-100 to-blue-50 shadow-sm flex flex-col items-center justify-center text-center p-4">
+              <i data-lucide="home" class="w-16 h-16 text-cyan-600 mb-2"></i>
               <span class="text-xs font-bold text-cyan-800 tracking-wider">越智 健心 氏</span>
               <span class="text-[10px] text-neutral-500 mt-1">TRASS株式会社 / 代表取締役</span>
             </div>
@@ -161,28 +179,54 @@
             <ul class="space-y-2.5 text-sm text-neutral-600">
               <li class="flex gap-2">
                 <span class="text-cyan-500 font-bold shrink-0">・</span>
-                <span>不動産業界で働くエージェント（営業職）と顧客をダイレクトにつなぐ次世代プラットフォーム「TRASS」を創業。</span>
+                <span>不動産営業のプロ（エージェント）が、完全に独立して自由に働けるプラットフォーム「TRASS」を創立。</span>
               </li>
               <li class="flex gap-2">
                 <span class="text-cyan-500 font-bold shrink-0">・</span>
-                <span>従来の店舗型ビジネスから脱却し、個人が自立して輝ける新しい働き方をテクノロジーで支援する仕組みを構築。</span>
+                <span>店舗を持たず、クラウド型で完結する仕組みにより、業界最高水準のフィー（成果報酬）と自由度を提供。</span>
               </li>
               <li class="flex gap-2">
                 <span class="text-cyan-500 font-bold shrink-0">・</span>
-                <span>「不動産業界全体のDX」と「個人エージェントのエンパワーメント」を同時に進め、旧態依然とした巨大産業の常識を塗り替える。</span>
+                <span>「不動産業界全体の働き方改革」を推進。個人の能力が最大限評価される仕組みを構築し業界をリードする。</span>
               </li>
             </ul>
           </div>
         </div>
 
-        <!-- 講師から学ぶ注目ポイント（フラットデザイン） -->
-        <div class="mt-6 bg-cyan-50/50 border border-cyan-100 rounded-xl p-5">
-          <h4 class="text-sm font-bold text-cyan-800 flex items-center gap-1.5 mb-2">
-            <i data-lucide="cpu" class="w-4 h-4"></i> 越智氏の「起業家探究」注目ポイント
-          </h4>
-          <p class="text-sm text-neutral-700 leading-relaxed">
-            伝統的でアナログな商習慣が色濃く残る不動産業界を、<strong>「テクノロジーによる合理化」と「個人の能力解放」</strong>でどう変革しているのか。プラットフォームビジネスを成功に導くための市場の捉え方と、産業イノベーションの進め方を学びましょう。
-          </p>
+        <!-- 💡 サービス誕生の背景（客観ベース） -->
+        <div class="space-y-4">
+          <div class="bg-cyan-50/30 border border-cyan-100 rounded-xl p-5">
+            <h4 class="text-sm font-bold text-cyan-800 flex items-center gap-1.5 mb-2">
+              <i data-lucide="history" class="w-4 h-4"></i> 💡 サービス誕生の背景：不動産仲介業のDXプラットフォーム
+            </h4>
+            <p class="text-sm text-neutral-700 leading-relaxed">
+              日本の伝統的な不動産業界は、実店舗網を維持するための固定費が高く、アナログな商習慣に依存していました。また、個々の営業担当者の成果が働き方や報酬にダイレクトに反映されにくい構造的な課題も存在。ここに「店舗を持たず、クラウドベースのシステムで完結するフリーランスエージェント向けインフラ」を提供することで、業務の効率化とエージェントの自立を可能にしました。
+            </p>
+          </div>
+
+          <!-- 🎓 探究の視点 -->
+          <div class="bg-neutral-50 border border-neutral-200/50 rounded-xl p-5">
+            <h4 class="text-sm font-bold text-neutral-800 flex items-center gap-1.5 mb-2">
+              <i data-lucide="microscope" class="w-4 h-4"></i> 🎓 起業家探究の着眼点
+            </h4>
+            <p class="text-sm text-neutral-700 leading-relaxed">
+              既存の古い商習慣や規制が存在する「レガシーマーケット（伝統的産業）」に対して、どのようにテクノロジーを適用して合理性を生み出したのか。産業のボトルネック（非効率な部分）を発見し、それを逆手にとってイノベーションを起こすための「構造分析の視点」を探究します。
+            </p>
+          </div>
+
+          <!-- 🔍 キーワード解説 -->
+          <div class="grid grid-cols-1 sm:grid-cols-2 gap-3">
+            <div class="border border-neutral-200 rounded-xl p-4 bg-white">
+              <span class="text-[10px] font-bold text-cyan-600 uppercase tracking-wider bg-cyan-50 px-2 py-0.5 rounded">キーワード ①</span>
+              <h5 class="text-sm font-bold text-neutral-800 mt-1 mb-1">不動産エージェントモデル</h5>
+              <p class="text-xs text-neutral-500 leading-relaxed">特定の企業に終身雇用されるのではなく、自立した個人のプロフェッショナルとして顧客と向き合い、不動産取引をサポートする働き方。</p>
+            </div>
+            <div class="border border-neutral-200 rounded-xl p-4 bg-white">
+              <span class="text-[10px] font-bold text-cyan-600 uppercase tracking-wider bg-cyan-50 px-2 py-0.5 rounded">キーワード ②</span>
+              <h5 class="text-sm font-bold text-neutral-800 mt-1 mb-1">プラットフォーム・ビジネス</h5>
+              <p class="text-xs text-neutral-500 leading-relaxed">自らが販売者としてビジネスを行うのではなく、サービスの提供者と利用者が取引を行うための安全で高機能な「システム基盤」を提供するビジネス形態。</p>
+            </div>
+          </div>
         </div>
       </section>
 
@@ -267,7 +311,7 @@
             </span>
             <div>
               <p class="text-sm font-bold text-neutral-800 group-hover:text-emerald-600 transition">株式会社My Fit</p>
-              <p class="text-xs text-neutral-400 mt-1">「自分を一番知り、愛せる世の中をつくる」パーソナルウェルネスを届ける企業</p>
+              <p class="text-xs text-neutral-400 mt-1">「自分を一番知り、愛せる世のない世の中をつくる」パーソナルウェルネスを届ける企業</p>
             </div>
           </a>
 
