@@ -1,0 +1,377 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>【事前学習】起業家講師 Night - 山田真愛 氏 ＆ 越智健心 氏</title>
+  <!-- Tailwind CSS -->
+  <script src="https://cdn.tailwindcss.com"></script>
+  <!-- Lucide Icons -->
+  <script src="https://unpkg.com/lucide@latest"></script>
+  <!-- Custom Google Font (Noto Sans JP) -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@300;400;500;700;900&display=swap" rel="stylesheet">
+  <style>
+    body {
+      font-family: 'Noto Sans JP', sans-serif;
+    }
+    .notion-shadow {
+      box-shadow: 0 1px 3px rgba(0, 0, 0, 0.05), 0 4px 12px rgba(0, 0, 0, 0.03);
+    }
+  </style>
+</head>
+<body class="bg-[#FBFBFA] text-[#37352F] antialiased selection:bg-emerald-100">
+
+  <!-- ヘッダーカバー画像風グラデーション（ウェルネスグリーン & テックブルー） -->
+  <div class="w-full h-48 md:h-64 bg-gradient-to-r from-emerald-800 via-teal-900 to-cyan-900 relative flex items-end overflow-hidden">
+    <!-- 装飾的な光の輪 -->
+    <div class="absolute -top-10 -left-10 w-40 h-40 md:w-72 md:h-72 bg-emerald-500 rounded-full blur-3xl opacity-20"></div>
+    <div class="absolute -bottom-10 -right-10 w-40 h-40 md:w-72 md:h-72 bg-cyan-500 rounded-full blur-3xl opacity-20"></div>
+    
+    <!-- カバー上のバッジ情報 -->
+    <div class="max-w-4xl w-full mx-auto px-6 pb-6 z-10">
+      <span class="inline-flex items-center gap-1.5 px-3 py-1 rounded-full text-xs font-semibold bg-emerald-500/20 text-emerald-300 border border-emerald-500/30 backdrop-blur-md">
+        <span class="w-2 h-2 rounded-full bg-emerald-400 animate-pulse"></span>
+        起業家講師 Night：事前学習
+      </span>
+    </div>
+  </div>
+
+  <!-- メインコンテンツ -->
+  <main class="max-w-3xl mx-auto px-4 sm:px-6 pb-24 -mt-10 relative z-20">
+    
+    <!-- メインカード -->
+    <div class="bg-white rounded-2xl p-6 sm:p-10 border border-neutral-200/80 notion-shadow">
+      
+      <!-- アイコン（Notion風） -->
+      <div class="text-5xl sm:text-6xl -mt-16 sm:-mt-20 mb-6 inline-block bg-white p-3 rounded-2xl border border-neutral-100 shadow-sm">
+        🌱
+      </div>
+
+      <!-- タイトル -->
+      <h1 class="text-2xl sm:text-4xl font-extrabold tracking-tight text-[#1A1A17] mb-4 leading-tight">
+        起業家探究：健康と産業の「新しい当たり前」を創る起業家たち
+      </h1>
+
+      <p class="text-sm text-neutral-500 mb-6 flex items-center gap-2">
+        <i data-lucide="calendar" class="w-4 h-4"></i> 起業家講師 Night シリーズ
+        <span class="text-neutral-300">|</span> 
+        <i data-lucide="clock" class="w-4 h-4"></i> 所要時間: 約15分
+      </p>
+
+      <!-- コールアウト：案内 -->
+      <div class="bg-emerald-50 border-l-4 border-emerald-500 p-4 rounded-r-lg mb-8 text-emerald-900 text-sm leading-relaxed">
+        <div class="flex gap-2">
+          <i data-lucide="info" class="w-5 h-5 shrink-0 text-emerald-600"></i>
+          <div>
+            <strong class="font-bold block mb-1">学生の皆さんへ</strong>
+            次回の「起業家講師 Night」では、パーソナルウェルネス領域で個人の健康に寄り添う<strong>山田真愛さん</strong>と、テクノロジーで不動産業界の働き方をアップデートする<strong>越智健心さん</strong>をお迎えします。それぞれの領域で「従来の業界構造」をどう変革しているのか、個々の熱いストーリーから学び取りましょう！
+          </div>
+        </div>
+      </div>
+
+      <!-- クイックメニュー（目次） -->
+      <div class="bg-neutral-50 rounded-xl p-4 mb-10 border border-neutral-200/50">
+        <p class="text-xs font-bold text-neutral-400 uppercase tracking-wider mb-2">もくじ</p>
+        <nav class="grid grid-cols-1 sm:grid-cols-2 gap-2 text-sm">
+          <a href="#profile-yamada" class="flex items-center gap-2 text-[#37352F] hover:text-emerald-600 transition-colors py-1">
+            <span class="text-xs bg-emerald-100 px-1.5 py-0.5 rounded text-emerald-800">1</span>
+            山田 真愛 氏（株式会社My Fit）
+          </a>
+          <a href="#profile-ochi" class="flex items-center gap-2 text-[#37352F] hover:text-emerald-600 transition-colors py-1">
+            <span class="text-xs bg-cyan-100 px-1.5 py-0.5 rounded text-cyan-800">2</span>
+            越智 健心 氏（TRASS株式会社）
+          </a>
+          <a href="#homework" class="flex items-center gap-2 text-[#37352F] hover:text-emerald-600 transition-colors py-1">
+            <span class="text-xs bg-neutral-200 px-1.5 py-0.5 rounded text-neutral-600">3</span>
+            自己学習用事前ワーク
+          </a>
+        </nav>
+      </div>
+
+      <!-- 1. 山田 真愛 氏 プロフィール -->
+      <section id="profile-yamada" class="mb-12 scroll-mt-6">
+        <h2 class="text-xl sm:text-2xl font-bold border-b-2 border-neutral-100 pb-2 mb-6 flex items-center gap-2 text-[#1a1a17]">
+          <span class="text-emerald-600">1.</span> 山田 真愛 氏（株式会社My Fit）
+        </h2>
+        
+        <div class="grid grid-cols-1 md:grid-cols-12 gap-6 items-start">
+          <div class="md:col-span-4 flex justify-center">
+            <!-- 講師写真用SVGプレースホルダー -->
+            <div class="w-40 h-40 sm:w-48 sm:h-48 rounded-2xl bg-gradient-to-tr from-emerald-100 to-teal-50 border border-emerald-200 shadow-sm flex flex-col items-center justify-center text-center p-4">
+              <i data-lucide="leaf" class="w-16 h-16 text-emerald-500 mb-2"></i>
+              <span class="text-xs font-bold text-emerald-800 tracking-wider">山田 真愛 氏</span>
+              <span class="text-[10px] text-neutral-500 mt-1">株式会社My Fit / CEO</span>
+            </div>
+          </div>
+          
+          <div class="md:col-span-8">
+            <h3 class="text-2xl font-black text-neutral-800 mb-1">山田 真愛 <span class="text-sm font-normal text-neutral-500">（やまだ まい）</span></h3>
+            <p class="text-sm font-semibold text-emerald-600 mb-4">株式会社My Fit 代表取締役 CEO</p>
+            
+            <ul class="space-y-2.5 text-sm text-neutral-600">
+              <li class="flex gap-2">
+                <span class="text-emerald-500 font-bold shrink-0">・</span>
+                <span>自分に合ったライフスタイルや健康管理をパーソナライズ化して提案する「My Fit」を創業。</span>
+              </li>
+              <li class="flex gap-2">
+                <span class="text-emerald-500 font-bold shrink-0">・</span>
+                <span>個人の遺伝子やライフスタイルに基づいたオーダーメイド型のプロテインやサプリメントのサービス等をプロデュース。</span>
+              </li>
+              <li class="flex gap-2">
+                <span class="text-emerald-500 font-bold shrink-0">・</span>
+                <span>「誰もが自分らしく、すこやかに生きられる社会」を目指し、ヘルスケア✕D2C（Direct to Consumer）領域で新しい価値を提供。</span>
+              </li>
+            </ul>
+          </div>
+        </div>
+
+        <!-- 講師から学ぶ注目ポイント（フラットデザイン） -->
+        <div class="mt-6 bg-emerald-50/50 border border-emerald-100 rounded-xl p-5">
+          <h4 class="text-sm font-bold text-emerald-800 flex items-center gap-1.5 mb-2">
+            <i data-lucide="compass" class="w-4 h-4"></i> 山田氏の「起業家探究」注目ポイント
+          </h4>
+          <p class="text-sm text-neutral-700 leading-relaxed">
+            大量生産・大量消費の時代から、<strong>「一人ひとりに最適化されたパーソナライズ」</strong>の時代へ。個人の多様な悩みに寄り添い、サービスを直接届けるD2Cモデルをいかにして構築したのか、女性若手起業家としてのリアルな挑戦のプロセスに注目です。
+          </p>
+        </div>
+      </section>
+
+      <!-- 2. 越智 健心 氏 プロフィール -->
+      <section id="profile-ochi" class="mb-12 scroll-mt-6">
+        <h2 class="text-xl sm:text-2xl font-bold border-b-2 border-neutral-100 pb-2 mb-6 flex items-center gap-2 text-[#1a1a17]">
+          <span class="text-cyan-600">2.</span> 越智 健心 氏（TRASS株式会社）
+        </h2>
+        
+        <div class="grid grid-cols-1 md:grid-cols-12 gap-6 items-start">
+          <div class="md:col-span-4 flex justify-center">
+            <!-- 講師写真用SVGプレースホルダー -->
+            <div class="w-40 h-40 sm:w-48 sm:h-48 rounded-2xl bg-gradient-to-tr from-cyan-100 to-blue-50 border border-cyan-200 shadow-sm flex flex-col items-center justify-center text-center p-4">
+              <i data-lucide="home" class="w-16 h-16 text-cyan-500 mb-2"></i>
+              <span class="text-xs font-bold text-cyan-800 tracking-wider">越智 健心 氏</span>
+              <span class="text-[10px] text-neutral-500 mt-1">TRASS株式会社 / 代表取締役</span>
+            </div>
+          </div>
+          
+          <div class="md:col-span-8">
+            <h3 class="text-2xl font-black text-neutral-800 mb-1">越智 健心 <span class="text-sm font-normal text-neutral-500">（おち けんしん）</span></h3>
+            <p class="text-sm font-semibold text-cyan-600 mb-4">TRASS株式会社 代表取締役</p>
+            
+            <ul class="space-y-2.5 text-sm text-neutral-600">
+              <li class="flex gap-2">
+                <span class="text-cyan-500 font-bold shrink-0">・</span>
+                <span>不動産業界で働くエージェント（営業職）と顧客をダイレクトにつなぐ次世代プラットフォーム「TRASS」を創業。</span>
+              </li>
+              <li class="flex gap-2">
+                <span class="text-cyan-500 font-bold shrink-0">・</span>
+                <span>従来の店舗型ビジネスから脱却し、個人が自立して輝ける新しい働き方をテクノロジーで支援する仕組みを構築。</span>
+              </li>
+              <li class="flex gap-2">
+                <span class="text-cyan-500 font-bold shrink-0">・</span>
+                <span>「不動産業界全体のDX」と「個人エージェントのエンパワーメント」を同時に進め、旧態依然とした巨大産業の常識を塗り替える。</span>
+              </li>
+            </ul>
+          </div>
+        </div>
+
+        <!-- 講師から学ぶ注目ポイント（フラットデザイン） -->
+        <div class="mt-6 bg-cyan-50/50 border border-cyan-100 rounded-xl p-5">
+          <h4 class="text-sm font-bold text-cyan-800 flex items-center gap-1.5 mb-2">
+            <i data-lucide="cpu" class="w-4 h-4"></i> 越智氏の「起業家探究」注目ポイント
+          </h4>
+          <p class="text-sm text-neutral-700 leading-relaxed">
+            伝統的でアナログな商習慣が色濃く残る不動産業界を、<strong>「テクノロジーによる合理化」と「個人の能力解放」</strong>でどう変革しているのか。プラットフォームビジネスを成功に導くための市場の捉え方と、産業イノベーションの進め方を学びましょう。
+          </p>
+        </div>
+      </section>
+
+      <!-- 3. 自己学習用事前ワーク -->
+      <section id="homework" class="mb-10 scroll-mt-6">
+        <div class="p-6 bg-gradient-to-br from-[#F5F8F6] to-[#EBF3ED] rounded-2xl border border-emerald-200/50">
+          <h2 class="text-xl sm:text-2xl font-bold mb-4 flex items-center gap-2 text-emerald-950">
+            <i data-lucide="book-open" class="w-6 h-6 text-emerald-600"></i>
+            講義に向けた事前ワーク
+          </h2>
+          <p class="text-sm text-neutral-600 mb-6 leading-relaxed">
+            講義を一方的に聞くだけでなく、あらかじめ自分の意見や視点を持っておくことで、当日のトークから得られる学びが何倍にも深まります。<strong>回答を記入して「回答を保存する」をクリック、または「TXTでダウンロード」して、手元に準備しておきましょう。</strong>
+          </p>
+
+          <!-- 事前課題フォーム -->
+          <form id="prework-form" class="space-y-6" onsubmit="event.preventDefault();">
+            <!-- Q1 -->
+            <div>
+              <label class="block text-sm font-bold text-neutral-800 mb-2">
+                <span class="bg-emerald-100 text-emerald-800 px-1.5 py-0.5 rounded text-xs mr-1">Q1</span>
+                【パーソナライズとヘルスケア】あなたは普段、生活習慣や健康について「もっと自分に最適化されたケアが欲しい」と感じることはありますか？また、パーソナライズされたサービスにどんな期待をしますか？
+              </label>
+              <textarea id="q1" rows="3" placeholder="（例）食事バランスやサプリを自分の日々の体調に合わせて毎日自動提案してほしい。既存の市販品はどれが自分に合うかわからない。" class="w-full text-sm rounded-lg border border-neutral-300 p-3 focus:border-emerald-500 focus:ring-1 focus:ring-emerald-500 outline-none transition"></textarea>
+            </div>
+
+            <!-- Q2 -->
+            <div>
+              <label class="block text-sm font-bold text-neutral-800 mb-2">
+                <span class="bg-emerald-100 text-emerald-800 px-1.5 py-0.5 rounded text-xs mr-1">Q2</span>
+                【テクノロジーによる産業変革】不動産や教育など「歴史が長くて少し古そう（アナログ）」に感じる業界で、テクノロジーを使ってもっと効率よく、働きやすくできると思うアイデアは何かありますか？
+              </label>
+              <textarea id="q2" rows="3" placeholder="（例）仲介手数料や内見の手続きがすべてアプリ内でワンクリックで完結し、営業担当者がよりパーソナルな提案に集中できる環境をつくる。" class="w-full text-sm rounded-lg border border-neutral-300 p-3 focus:border-emerald-500 focus:ring-1 focus:ring-emerald-500 outline-none transition"></textarea>
+            </div>
+
+            <!-- Q3 -->
+            <div>
+              <label class="block text-sm font-bold text-neutral-800 mb-2">
+                <span class="bg-emerald-100 text-emerald-800 px-1.5 py-0.5 rounded text-xs mr-1">Q3</span>
+                当日のお二人とのセッションに向けて、聞いてみたい質問を準備してみましょう。
+              </label>
+              <textarea id="q3" rows="3" placeholder="（例）巨大な競合他社や古い慣習がある市場に参入するとき、最初の1歩目をどのようにして突破したのかお聞きしたいです。" class="w-full text-sm rounded-lg border border-neutral-300 p-3 focus:border-emerald-500 focus:ring-1 focus:ring-emerald-500 outline-none transition"></textarea>
+            </div>
+
+            <!-- 学生名入力 -->
+            <div class="grid grid-cols-1 sm:grid-cols-2 gap-4 pt-2">
+              <div>
+                <label class="block text-xs font-bold text-neutral-500 uppercase mb-1">学籍番号</label>
+                <input type="text" id="student-id" placeholder="例: 123456" class="w-full text-sm rounded-lg border border-neutral-300 p-2.5 focus:border-emerald-500 focus:ring-1 focus:ring-emerald-500 outline-none transition">
+              </div>
+              <div>
+                <label class="block text-xs font-bold text-neutral-500 uppercase mb-1">お名前</label>
+                <input type="text" id="student-name" placeholder="例: 山田 太郎" class="w-full text-sm rounded-lg border border-neutral-300 p-2.5 focus:border-emerald-500 focus:ring-1 focus:ring-emerald-500 outline-none transition">
+              </div>
+            </div>
+
+            <!-- アクションボタン -->
+            <div class="flex flex-col sm:flex-row gap-3 pt-4">
+              <button type="button" onclick="saveToLocal()" class="flex-1 bg-emerald-600 hover:bg-emerald-700 text-white font-bold py-3 px-4 rounded-xl shadow-sm transition flex items-center justify-center gap-2">
+                <i data-lucide="save" class="w-5 h-5"></i>
+                ブラウザに回答を保存
+              </button>
+              <button type="button" onclick="downloadAnswers()" class="bg-neutral-800 hover:bg-neutral-900 text-white font-bold py-3 px-6 rounded-xl shadow-sm transition flex items-center justify-center gap-2">
+                <i data-lucide="download" class="w-5 h-5"></i>
+                TXTでダウンロード
+              </button>
+            </div>
+            
+            <p id="status-message" class="text-center text-xs font-semibold text-emerald-600 h-4 mt-2 transition"></p>
+          </form>
+        </div>
+      </section>
+
+      <!-- 4. 関連リンク -->
+      <section id="links" class="pt-6 border-t border-neutral-100">
+        <h3 class="text-sm font-bold text-neutral-400 uppercase tracking-wider mb-4">🔗 バックグラウンドを知るための参考リンク</h3>
+        
+        <div class="grid grid-cols-1 sm:grid-cols-2 gap-4">
+          <!-- リンク1 -->
+          <a href="https://myfit.co.jp/" target="_blank" rel="noopener noreferrer" class="group flex items-start gap-3 p-3.5 rounded-xl border border-neutral-200 hover:border-emerald-500 hover:bg-emerald-50/10 transition">
+            <span class="p-2 bg-neutral-100 group-hover:bg-emerald-100 rounded-lg text-neutral-500 group-hover:text-emerald-600 transition shrink-0">
+              <i data-lucide="external-link" class="w-5 h-5"></i>
+            </span>
+            <div>
+              <p class="text-sm font-bold text-neutral-800 group-hover:text-emerald-600 transition">株式会社My Fit</p>
+              <p class="text-xs text-neutral-400 mt-1">「自分を一番知り、愛せる世の中をつくる」パーソナルウェルネスを届ける企業</p>
+            </div>
+          </a>
+
+          <!-- リンク2 -->
+          <a href="https://trass.co.jp/" target="_blank" rel="noopener noreferrer" class="group flex items-start gap-3 p-3.5 rounded-xl border border-neutral-200 hover:border-cyan-500 hover:bg-cyan-50/10 transition">
+            <span class="p-2 bg-neutral-100 group-hover:bg-cyan-100 rounded-lg text-neutral-500 group-hover:text-cyan-600 transition shrink-0">
+              <i data-lucide="external-link" class="w-5 h-5"></i>
+            </span>
+            <div>
+              <p class="text-sm font-bold text-neutral-800 group-hover:text-cyan-600 transition">TRASS株式会社</p>
+              <p class="text-xs text-neutral-400 mt-1">「知恵とテクノロジーで、不動産取引を心地よく、オープンに。」を進める企業</p>
+            </div>
+          </a>
+        </div>
+      </section>
+
+    </div>
+
+    <!-- フッター -->
+    <footer class="mt-8 text-center text-xs text-neutral-400">
+      <p>© 2026 起業家講師 Night</p>
+      <p class="mt-1">Designed for Next Generation Entrepreneurs</p>
+    </footer>
+
+  </main>
+
+  <script>
+    // Lucideアイコンの初期化
+    lucide.createIcons();
+
+    // ローカルストレージに回答を一時保存
+    function saveToLocal() {
+      const data = {
+        q1: document.getElementById('q1').value,
+        q2: document.getElementById('q2').value,
+        q3: document.getElementById('q3').value,
+        studentId: document.getElementById('student-id').value,
+        studentName: document.getElementById('student-name').value
+      };
+      
+      localStorage.setItem('myfit_trass_prework', JSON.stringify(data));
+      
+      const statusMsg = document.getElementById('status-message');
+      statusMsg.innerText = "ブラウザに回答を保存しました！当日まで消去されません。";
+      statusMsg.className = "text-center text-xs font-semibold text-emerald-600 mt-2";
+      
+      setTimeout(() => {
+        statusMsg.innerText = "";
+      }, 4000);
+    }
+
+    // 保存データの自動読み込み
+    window.addEventListener('load', () => {
+      const savedData = localStorage.getItem('myfit_trass_prework');
+      if (savedData) {
+        const data = JSON.parse(savedData);
+        document.getElementById('q1').value = data.q1 || '';
+        document.getElementById('q2').value = data.q2 || '';
+        document.getElementById('q3').value = data.q3 || '';
+        document.getElementById('student-id').value = data.studentId || '';
+        document.getElementById('student-name').value = data.studentName || '';
+      }
+    });
+
+    // テキストファイルとして回答をダウンロード
+    function downloadAnswers() {
+      const q1 = document.getElementById('q1').value;
+      const q2 = document.getElementById('q2').value;
+      const q3 = document.getElementById('q3').value;
+      const studentId = document.getElementById('student-id').value || "未入力";
+      const studentName = document.getElementById('student-name').value || "未入力";
+
+      const text = `【事前学習ワークシート】起業家講師 Night：山田真愛 氏 ＆ 越智健心 氏
+--------------------------------------------------
+■ 学籍番号 : ${studentId}
+■ お名前   : ${studentName}
+--------------------------------------------------
+
+Q1. 【パーソナライズとヘルスケア】あなたは普段、生活習慣や健康について「もっと自分に最適化されたケアが欲しい」と感じることはありますか？また、パーソナライズされたサービスにどんな期待をしますか？
+[回答]:
+${q1}
+
+--------------------------------------------------
+
+Q2. 【テクノロジーによる産業変革】不動産や教育など「歴史が長くて少し古そう（アナログ）」に感じる業界で、テクノロジーを使ってもっと効率よく、働きやすくできると思うアイデアは何かありますか？
+[回答]:
+${q2}
+
+--------------------------------------------------
+
+Q3. 当日のお二人とのセッションに向けて、聞いてみたい質問
+[回答]:
+${q3}
+
+--------------------------------------------------
+振り返り・学習用。お疲れ様でした！講義当日をお楽しみに！`;
+
+      const blob = new Blob([text], { type: "text/plain;charset=utf-8" });
+      const link = document.createElement("a");
+      link.href = URL.createObjectURL(blob);
+      link.download = `事前学習ワーク_${studentName}.txt`;
+      link.click();
+      URL.revokeObjectURL(link.href);
+    }
+  </script>
+</body>
+</html>
